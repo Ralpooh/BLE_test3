@@ -122,7 +122,7 @@ public class BleDevicesAdapter extends BaseAdapter {
         TextView address;
         /** Device name. */
         TextView signal;
-
+        
         private ViewHolder(View view) {
 /*            name = (TextView) view.findViewById(R.id.device_name);
             address = (TextView) view.findViewById(R.id.device_address);
